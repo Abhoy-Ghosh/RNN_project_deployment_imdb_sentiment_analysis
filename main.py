@@ -30,7 +30,7 @@ word_index = imdb.get_word_index()
 # ------------------------------------------------------------
 @st.cache_resource
 def load_sentiment_model():
-    return load_model("simple_rnn_imdb.h5")
+    return load_model("notebook\simple_rnn_imdb.h5")
 
 model = load_sentiment_model()
 
